@@ -5,6 +5,10 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   box-sizing: border-box;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -12,4 +16,24 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.fig-top {
+  margin: 0;
+}
+
+figcaption {
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
 }
