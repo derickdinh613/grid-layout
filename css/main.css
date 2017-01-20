@@ -10,8 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -22,18 +21,10 @@ body {
   margin: 0;
 }
 
-img {
+.img-flex {
   width: 100%;
 }
 
 .fig-top {
   margin: 0;
-}
-
-figcaption {
-  font-weight: 700;
-}
-
-h1 {
-  font-weight: 700;
 }
